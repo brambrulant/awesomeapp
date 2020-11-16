@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .App-logo {
@@ -14,18 +15,32 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: red;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: fantasy;
+  font-size: 50px;
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Pokemon {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: rgb(253, 149, 52);
+  border: 5px solid black;
+  padding: 1px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
 }
 
 @keyframes App-logo-spin {
