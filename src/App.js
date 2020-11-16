@@ -1,7 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import "./Pokemon.css";
-import Title from "./components/Title";
 import Pokemon from "./components/Pokemon";
 
 function App() {
